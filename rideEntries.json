@@ -1,0 +1,62 @@
+const rideEntries = [
+  {
+    name: "Sky Screamer",
+    description: "A high-altitude swing ride that spins riders 200 feet in the air.",
+    price: 8.5,
+    image: "https://example.com/images/sky-screamer.jpg"
+  },
+  {
+    name: "Thunder Coaster",
+    description: "A wooden roller coaster with steep drops and fast turns.",
+    price: 10,
+    image: "https://example.com/images/thunder-coaster.jpg"
+  },
+  {
+    name: "Jungle River Rapids",
+    description: "White-water raft ride through a tropical jungle setting.",
+    price: 7,
+    image: "https://example.com/images/jungle-rapids.jpg"
+  },
+  {
+    name: "Galaxy Spinner",
+    description: "A spinning space-themed ride with glowing lights and music.",
+    price: 6.5,
+    image: "https://example.com/images/galaxy-spinner.jpg"
+  },
+  {
+    name: "Haunted Mansion",
+    description: "Dark ride through a spooky haunted house with special effects.",
+    price: 6,
+    image: "https://example.com/images/haunted-mansion.jpg"
+  },
+  {
+    name: "Pirate's Plunge",
+    description: "Water log flume with a massive splash at the end.",
+    price: 7.5,
+    image: "https://example.com/images/pirates-plunge.jpg"
+  },
+  {
+    name: "Dragon Flight",
+    description: "Suspended coaster that swoops and glides like a dragon in flight.",
+    price: 9,
+    image: "https://example.com/images/dragon-flight.jpg"
+  },
+  {
+    name: "Ferris Fantasy",
+    description: "Giant Ferris wheel offering panoramic views of the park.",
+    price: 5,
+    image: "https://example.com/images/ferris-fantasy.jpg"
+  },
+  {
+    name: "Bumper Cars Bash",
+    description: "Classic bumper cars with fun lighting and music.",
+    price: 4.5,
+    image: "https://example.com/images/bumper-cars.jpg"
+  },
+  {
+    name: "Mini Coaster Mania",
+    description: "A beginner coaster perfect for young thrill-seekers.",
+    price: 4,
+    image: "https://example.com/images/mini-coaster.jpg"
+  }
+];
