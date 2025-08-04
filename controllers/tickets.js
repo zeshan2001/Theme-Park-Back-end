@@ -1,1 +1,1 @@
-const { Tickets } = require('../models/ticket')
+const Tickets = require('../models/ticket')

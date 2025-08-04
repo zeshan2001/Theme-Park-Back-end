@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const rideSchema = new Schema(
+const rideSchema = new mongoose.Schema(
   {
     name: { type: String },
     description: { type: String },
@@ -12,5 +12,5 @@ const rideSchema = new Schema(
   }
 )
 
-const Ride = mongoose.model('Ride', ticketSchema)
+const Ride = mongoose.model('Ride', rideSchema)
 module.exports = Ride
