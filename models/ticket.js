@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const ticketSchema = new Schema(
+const ticketSchema = new mongoose.Schema(
   {
     name: { type: String },
     purchase_date: { type: Date },
