@@ -1,0 +1,5 @@
+const router = require('express').Router('../controllers/tickets')
+const ticketsCTRL = require('..')
+router.get('/:ticketid', null)
+router.post('/new', null)
+router.delete('/:ticketid', null)
