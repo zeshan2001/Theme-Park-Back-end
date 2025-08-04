@@ -3,7 +3,7 @@ const logger = require('morgan')
 const Rides = require('./routes/rides')
 const Tickets = require('./routes/tickets')
 const PORT = process.env.PORT || 3001
-const db = require('./db')
+const db = require('./db/db')
 
 const app = express()
 
