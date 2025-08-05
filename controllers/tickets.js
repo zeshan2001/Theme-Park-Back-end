@@ -2,7 +2,8 @@ const Tickets = require('../models/ticket')
 
 const Find_TicketID_get = async (req, res) => {
   try {
-    const ticket = await Tickets.findById(req.params.ticketid)
+    // const ticket = await Tickets.findById(req.params.ticketid)
+    const ticket = await Tickets.findById(req.params.ticketid).populate('ride')
     res.status(200).send(ticket)
   } catch (error) {
     res.status(500).send({ error: 'Failed to get ticket' })
