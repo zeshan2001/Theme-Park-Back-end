@@ -4,7 +4,7 @@ const ticketSchema = new mongoose.Schema(
   {
     name: { type: String },
     purchase_date: { type: Date },
-    rides: {
+    ride: {
       type: mongoose.Schema.Types.ObjectId,
       ref: 'Ride'
     }
