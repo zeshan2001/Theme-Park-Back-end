@@ -8,42 +8,27 @@
 
 A back-end Design for website users can view all ride games and book a ticket for a ride
 
-# Wireframes Design
-
-Home Page
-![Home Page](images/Slide1.JPG)
-Lisi All rides
-![Lisi All rides](images/Slide2.JPG)
-select one ride
-![select one ride](images/Slide3.JPG)
-book one ride
-![book one ride](images/Slide4.JPG)
-
 # ERD Design
 
 ![ERD Design](images/ERD.png)
 
 # RESTful Table
 
-![RESTful Table](images/RESTful%20Table.png)
-
-# Component Hierarchy Diagrams
-
-![Component Hierarchy Diagrams](images/Drawing1.jpg)
-
-# Screenshot Design
+![RESTful Table](images/RESTfulTable.png)
 
 # Lists/Tech used
 
-- html
 - JavaScript
-- express
+- express.js
 - mongodb-mongoose
+- node.js
+- Json
 
 # Future work
 
-- .
+- Add JWT authentication.
+- Add user roles such as Admin.
 
 # source /reference/attributions
 
-- []()
+- [npm](https://www.npmjs.com)
